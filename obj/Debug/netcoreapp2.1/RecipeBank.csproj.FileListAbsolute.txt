@@ -3,7 +3,6 @@ C:\Users\sanna\source\repos\RecipeBank\RecipeBank\bin\Debug\netcoreapp2.1\Recipe
 C:\Users\sanna\source\repos\RecipeBank\RecipeBank\bin\Debug\netcoreapp2.1\RecipeBank.runtimeconfig.dev.json
 C:\Users\sanna\source\repos\RecipeBank\RecipeBank\bin\Debug\netcoreapp2.1\RecipeBank.dll
 C:\Users\sanna\source\repos\RecipeBank\RecipeBank\bin\Debug\netcoreapp2.1\RecipeBank.pdb
-C:\Users\sanna\source\repos\RecipeBank\RecipeBank\obj\Debug\netcoreapp2.1\RecipeBank.csprojAssemblyReference.cache
 C:\Users\sanna\source\repos\RecipeBank\RecipeBank\obj\Debug\netcoreapp2.1\RecipeBank.csproj.CoreCompileInputs.cache
 C:\Users\sanna\source\repos\RecipeBank\RecipeBank\obj\Debug\netcoreapp2.1\RecipeBank.RazorAssemblyInfo.cache
 C:\Users\sanna\source\repos\RecipeBank\RecipeBank\obj\Debug\netcoreapp2.1\RecipeBank.RazorAssemblyInfo.cs
@@ -12,3 +11,4 @@ C:\Users\sanna\source\repos\RecipeBank\RecipeBank\obj\Debug\netcoreapp2.1\Recipe
 C:\Users\sanna\source\repos\RecipeBank\RecipeBank\obj\Debug\netcoreapp2.1\RecipeBank.RazorTargetAssemblyInfo.cache
 C:\Users\sanna\source\repos\RecipeBank\RecipeBank\obj\Debug\netcoreapp2.1\RecipeBank.dll
 C:\Users\sanna\source\repos\RecipeBank\RecipeBank\obj\Debug\netcoreapp2.1\RecipeBank.pdb
+C:\Users\sanna\source\repos\RecipeBank\RecipeBank\obj\Debug\netcoreapp2.1\RecipeBank.csprojAssemblyReference.cache

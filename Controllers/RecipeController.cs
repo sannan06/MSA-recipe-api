@@ -35,24 +35,6 @@ namespace RecipeBank.Controllers
             return _context.RecipeItem;
         }
 
-        // GET: api/Recipe/5
-        [HttpGet("{id}")]
-        public async Task<IActionResult> GetRecipeItem([FromRoute] int id)
-        {
-            if (!ModelState.IsValid)
-            {
-                return BadRequest(ModelState);
-            }
-
-            var recipeItem = await _context.RecipeItem.FindAsync(id);
-
-            if (recipeItem == null)
-            {
-                return NotFound();
-            }
-
-            return Ok(recipeItem);
-        }
 
         // PUT: api/Recipe/5
         [HttpPut("{id}")]
@@ -125,17 +107,23 @@ namespace RecipeBank.Controllers
             return Ok(recipeItem);
         }
 
-        // GET: api/Meme/Tag
-        [Route("tag")]
-        [HttpGet]
-        public async Task<List<string>> GetTags()
+        // GET: api/Recipe/tag
+        [HttpGet("{tag}")]
+        public IActionResult GetRecipeItem([FromRoute] string tag)
         {
-            var memes = (from m in _context.RecipeItem
-                         select m.tag).Distinct();
+            if (!ModelState.IsValid)
+            {
+                return BadRequest(ModelState);
+            }
 
-            var returned = await memes.ToListAsync();
+            var recipeItem = _context.RecipeItem.Where(s => s.tag == tag);
 
-            return returned;
+            if (recipeItem == null)
+            {
+                return NotFound();
+            }
+
+            return Ok(recipeItem);
         }
 
         [HttpPost, Route("upload")]
